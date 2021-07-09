@@ -388,6 +388,7 @@ footer{
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
+    margin: auto auto;
     cursor: default;
     transition: all 0.3s ease;
 }
