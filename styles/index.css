@@ -553,7 +553,7 @@ footer{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 95%;
+    border-radius: 5%;
     border: 2px solid crimson;
     transition: all 0.3s ease;
     cursor: pointer;
