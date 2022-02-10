@@ -515,7 +515,7 @@ footer{
 }
 
 .certificates .title::after{
-    content: "And Certifications";
+    content: "Certifications";
 }
 
 .certificates .carousel .card{
