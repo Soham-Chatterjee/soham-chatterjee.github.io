@@ -516,7 +516,6 @@ footer{
 
 .certificates .title::after{
     content: "And Certifications";
-    background: #111;
 }
 
 .certificates .carousel .card{
@@ -546,6 +545,7 @@ footer{
 .certificates .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
+    color: "white";
     margin: 10px 0 7px 0;
 }
 
@@ -553,7 +553,7 @@ footer{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 95%;
     border: 2px solid crimson;
     transition: all 0.3s ease;
     cursor: pointer;
