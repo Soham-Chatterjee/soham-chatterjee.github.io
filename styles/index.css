@@ -545,14 +545,18 @@ footer{
 .certificates .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
-    color: "white";
+    color: white;
     margin: 10px 0 7px 0;
 }
 
+.certificates .carousel .card .text p{
+    color: white;
+}
+
 .certificates .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
+    height: 200px;
+    width: 250px;
+    object-fit: fill;
     border-radius: 5%;
     border: 2px solid crimson;
     transition: all 0.3s ease;
