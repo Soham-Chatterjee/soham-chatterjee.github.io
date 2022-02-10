@@ -293,6 +293,7 @@ section .title::after{
 .about, 
 .education, 
 .skills,
+.certificates,
 .projects,
 .contact,
 footer{
@@ -512,6 +513,56 @@ footer{
     top: 0;
     background: crimson;
 }
+
+.certificates .title::after{
+    content: "And Certifications";
+    background: #111;
+}
+
+.certificates .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.certificates .carousel .card:hover{
+    background: crimson;
+}
+
+.certificates .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.certificates .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+
+.certificates .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.certificates .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.certificates .carousel .card:hover img{
+    border-color: #fff;
+}
+
 .projects .title::after{
     content: "My works";
     background: #111;
