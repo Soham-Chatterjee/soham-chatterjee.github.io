@@ -463,16 +463,25 @@ footer{
     content: "";
     position: absolute;
     height: 100%;
-    width: 60%;
+    width: 65%;
     left: 0;
     top: 0;
     background: crimson;
 }
-.skills .skills-content .right .mysql::before{
+.skills .skills-content .right .cpp::before{
     content: "";
     position: absolute;
     height: 100%;
-    width: 65%;
+    width: 50%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills .skills-content .right .java::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 40%;
     left: 0;
     top: 0;
     background: crimson;
@@ -500,15 +509,6 @@ footer{
     position: absolute;
     height: 100%;
     width: 45%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-.skills .skills-content .right .php::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 30%;
     left: 0;
     top: 0;
     background: crimson;
