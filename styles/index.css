@@ -328,7 +328,7 @@ footer{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50%;
 }
 
 .about .about-content .right{
@@ -369,12 +369,14 @@ footer{
 }
 
 .education,
-.projects{
+.projects,
+.certificates{
     background: #111;
     color: #fff;
 }
 
 .education .title::before,
+.certificates .title::before,
 .projects .title::before{
     background: #fff;
 }
@@ -393,7 +395,7 @@ footer{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 20px 25px;
     margin: auto auto;
     cursor: default;
@@ -521,12 +523,13 @@ footer{
 }
 
 .certificates .title::after{
+    background: #111;
     content: "Certifications";
 }
 
 .certificates .carousel .card{
     background: #222;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
@@ -580,7 +583,7 @@ footer{
 
 .projects .carousel .card{
     background: #222;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
