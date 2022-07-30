@@ -119,3 +119,14 @@ document.getElementById('iframe_submit').onload = function () {
         }
     }
 }
+
+
+gsap.from(".anim-bar", {
+    scrollTrigger: ".anim-bar",
+    width: "0px",
+    ease: Power2.easeInOut,
+    duration: 3,
+    stagger: 0.1
+});
+
+AOS.init();

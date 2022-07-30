@@ -8,11 +8,15 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="icon" href="images/favicon.ico">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>My Space</title>
 </head>
 
@@ -53,32 +57,32 @@
 
     <section class="home" id="home">
         <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello! I am</div>
-                <div class="text-2">Soham Chatterjee</div>
-                <div class="text-3">And I'm <span class="typing"></span></div>
-                <a href="#contact">Contact Me</a>
+            <div class="home-content" >
+                <div class="text-1" data-aos="fade-up" data-aos-duration="2000">Hello! I am</div>
+                <div class="text-2" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" data-aos-once="true">Soham Chatterjee</div>
+                <div class="text-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000" data-aos-once="true">And I'm <span class="typing"></span></div>
+                <a href="#contact" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="3000" data-aos-once="true">Contact Me</a>
             </div>
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About Myself</h2>
+            <h2 class="title" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">About Myself</h2>
             <div class="about-content">
-                <div class="column left">
+                <div class="column left" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
                     <img src="images/self.jpg" alt="image-self">
                 </div>
 
                 <div class="column right">
-                    <div class="text">I am Soham and I'm <span class="typing-2"></span></div>
-                    <p>I am a teenager from West Bengal, India, who loves to code (better with a cup of coffee). I have
+                    <div class="text" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">I am Soham and I'm <span class="typing-2"></span></div>
+                    <p data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">I am a teenager from West Bengal, India, who loves to code (better with a cup of coffee). I have
                         been learning to code since 2019. You can find more about my skills down in the Skills section. 
                         This website serves as my portfolio where you get to know me. You will also find the projects 
                         that I have made and/or am currently making. Lastly, don't forget to check out my social media 
                         accounts and also, don't forget to leave a message for me from down below in the contact section! Cheers! ;)
                     </p>
-                    <div class="social-links">
+                    <div class="social-links" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" data-aos-once="true">
                         <a href="https://github.com/Soham-Chatterjee" target="_blank"><i class="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/soham-chatterjee-b9a873203/" target="_blank"><i
                                 class="fab fa-linkedin"></i></a>
@@ -96,9 +100,9 @@
 
     <section class="education" id="education">
         <div class="max-width">
-            <h2 class="title">Educational</h2>
+            <h2 class="title" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">Educational</h2>
             <div class="education-content">
-                <div class="card">
+                <div class="card" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
                     <div class="box">
                         <i class="fas fa-school"></i>
                         <div class="text">Schooling</div>
@@ -106,7 +110,7 @@
                                 Kharagpur</b><br>2010-2021</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                     <div class="box">
                         <i class="fas fa-graduation-cap"></i>
                         <div class="text">Graduation</div>
@@ -119,9 +123,9 @@
 
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My Skills</h2>
+            <h2 class="title" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">My Skills</h2>
             <div class="skills-content">
-                <div class="column left">
+                <div class="column left" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
                     <div class="text">Languages I know.</div>
                     <p>I am quite comfortable with Python at present along with MySQL database. I am also used to C/C++ and a bit of Java. 
                         Apart from this, I have a hand on web development. I also know a little bit of PHP to about an extent of 30% and I aim to
@@ -129,46 +133,46 @@
                 </div>
                 <div class="column right">
                     <div class="bars">
-                        <div class="info">
+                        <div class="info" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                             <span>Python</span>
                             <span>65%</span>
                         </div>
-                        <div class="line python"></div>
+                        <div class="line python anim-bar"></div>
                     </div>
                     <div class="bars">
-                        <div class="info">
+                        <div class="info" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                             <span>C/C++</span>
                             <span>50%</span>
                         </div>
-                        <div class="line cpp"></div>
+                        <div class="line cpp anim-bar"></div>
                     </div>
                     <div class="bars">
-                        <div class="info">
+                        <div class="info" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                             <span>Java</span>
                             <span>40%</span>
                         </div>
-                        <div class="line java"></div>
+                        <div class="line java anim-bar"></div>
                     </div>
                     <div class="bars">
-                        <div class="info">
+                        <div class="info" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                             <span>HTML</span>
                             <span>60%</span>
                         </div>
-                        <div class="line html"></div>
+                        <div class="line html anim-bar"></div>
                     </div>
                     <div class="bars">
-                        <div class="info">
+                        <div class="info" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                             <span>CSS</span>
                             <span>55%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line css anim-bar"></div>
                     </div>
                     <div class="bars">
-                        <div class="info">
+                        <div class="info" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
                             <span>JavaScript</span>
                             <span>45%</span>
                         </div>
-                        <div class="line js"></div>
+                        <div class="line js anim-bar"></div>
                     </div>
                 </div>
             </div>
@@ -177,9 +181,9 @@
     
     <section class="certificates" id="certificates">
         <div class="max-width">
-            <h2 class="title">Licenses</h2>
+            <h2 class="title" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">Licenses</h2>
             <div class="carousel owl-carousel">
-                <div class="card">
+                <div class="card" data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
                     <div class="box">
                         <img src="images/Problem Solving (Basic).png" alt="HackerRank Problem Solving (Basic)" id="hr_psb"
                             onclick="zoom('hr_psb')">
@@ -187,7 +191,7 @@
                         <p>Problem Solving (Basic)</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
                     <div class="box">
                         <img src="images/Python (Basic).png" alt="HackerRank Python (Basic)" id="hr_pb"
                             onclick="zoom('hr_pb')">
@@ -195,7 +199,7 @@
                         <p>Python (Basic)</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="600">
                     <div class="box">
                         <img src="images/SQL (Basic).png" alt="HackerRank SQL (Basic)"
                             id="hr_sqlb" onclick="zoom('hr_sqlb')">
@@ -204,7 +208,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="900">
                     <div class="box">
                         <img src="images/SQL (Intermediate).png" alt="HackerRank SQL (Intermediate)"
                             id="hr_sqli" onclick="zoom('hr_sqli')">
@@ -212,7 +216,7 @@
                         <p>SQL (Intermediate)</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="1200">
                     <div class="box">
                         <img src="images/Ethical hacking.jpg" alt="Udemy Ethical Hacking"
                             id="ud_eh" onclick="zoom('ud_eh')">
@@ -220,7 +224,7 @@
                         <p>Ethical Hacking</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="1500">
                     <div class="box">
                         <img src="images/FlutterVerse participation.png" alt="MSC FlutterVerse Participation"
                             id="msc_fp" onclick="zoom('msc_fp')">
@@ -228,7 +232,7 @@
                         <p>FlutterVerse Bootcamp Participation</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="1800">
                     <div class="box">
                         <img src="images/FlutterVerse Appreciation.png" alt="MSC FlutterVerse Appreciation"
                             id="msc_fa" onclick="zoom('msc_fa')">
@@ -247,9 +251,9 @@
 
     <section class="projects" id="projects">
         <div class="max-width">
-            <h2 class="title">Projects</h2>
+            <h2 class="title" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">Projects</h2>
             <div class="carousel owl-carousel">
-                <div class="card">
+                <div class="card" data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="center-bottom">
                     <div class="box">
                         <img src="images/pong-preview.PNG" alt="Pong Game with Python - Preview" id="pong-img"
                             onclick="zoom('pong-img')">
@@ -257,7 +261,7 @@
                         <p><b>Status: Completed</b><br>One of the must make project for developers! This pong game has all the features close to a real game. You can set the difficulty mode when playing against the AI. Also, you can call over a friend and play with him in the multiplayer mode. This project can be found in <a href="https://github.com/Soham-Chatterjee/pong_game" target="_blank" style="text-decoration: underline; color: #fff; outline: none;">this Github repository</a>. Download it directly from <a href="files/Pong game.zip" style="text-decoration: underline; color: #fff; outline: none;" download>here</a>. Do check it out! :)</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
                     <div class="box">
                         <img src="images/hmd-preview.PNG" alt="Hostel Management Database - Preview" id="hmd-img"
                             onclick="zoom('hmd-img')">
@@ -270,7 +274,7 @@
                                 repository</a>. We have tried to make it as real as possible! Do check it out!!</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="600">
                     <div class="box">
                         <img src="images/talkito-preview.PNG" alt="Talkito - The Web Chat App - Preview"
                             id="talkito-img" onclick="zoom('talkito-img')">
@@ -283,7 +287,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="900">
                     <div class="box">
                         <img src="images/geega-preview.PNG" alt="Geega - The Personal Voice Assistant - Preview"
                             id="geega-img" onclick="zoom('geega-img')">
@@ -294,7 +298,7 @@
                             Github!</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-down" data-aos-duration="2000" data-aos-anchor-placement="center-bottom" data-aos-delay="1200">
                     <div class="box">
                         <img src="images/covtracker-preview.jpg" alt="CovTracker - A COVID tracking app"
                             id="covtracker-img" onclick="zoom('covtracker-img')">
@@ -318,30 +322,30 @@
 
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact Me</h2>
+            <h2 class="title" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">Contact Me</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Let's Talk!</div>
-                    <p>Hope you have liked the site till now! If you have any reviews, suggestions or any message for
+                    <div class="text" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">Let's Talk!</div>
+                    <p data-aos="fade-right" data-aos-duration="2000">Hope you have liked the site till now! If you have any reviews, suggestions or any message for
                         me, be sure to leave them here in the contact section. Just fill all the details in the form,
                         and I will get in touch with you within 2 business days.Yeah! Be sure to get a reply from me.
                         Don't believe me? Well....try it then! XD</p>
                     <div class="icons">
-                        <div class="row">
+                        <div class="row" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300" data-aos-once="true">
                             <i class="fas fa-user"></i>
-                            <div class="info">
+                            <div class="info" >
                                 <div class="head">Name</div>
                                 <div class="sub-title">Soham Chatterjee</div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="600" data-aos-once="true">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
                                 <div class="sub-title">Kharagpur, West Bengal, India</div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="900" data-aos-once="true">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">E-mail</div>
@@ -351,31 +355,31 @@
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Reviews, Suggestions and messages</div>
+                    <div class="text" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">Reviews, Suggestions and messages</div>
                     <iframe name='iframe_submit' id='iframe_submit' style="display: none;"></iframe>
                     <form
                         action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe5nlCDaUSLUKUh-fGiVgFfytPPPwf05dAhTpv9dhuS3QHIMg/formResponse"
                         method="POST" name="contactform" id="contactform" target='iframe_submit'>
                         <div class="fields">
-                            <div class="field name">
+                            <div class="field name" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300" data-aos-once="true">
                                 <input type="text" placeholder="Name" name="entry.2128518566" autocomplete="off"
                                     required>
                             </div>
-                            <div class="field email">
+                            <div class="field email" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="600" data-aos-once="true">
                                 <input type="email" placeholder="E-mail" name="entry.110516436" autocomplete="off"
                                     required>
                             </div>
                         </div>
-                        <div class="field">
+                        <div class="field" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="900" data-aos-once="true">
                             <input type="text" placeholder="Subject" name="entry.1003121755" autocomplete="off"
                                 required>
                         </div>
-                        <div class="field textarea">
+                        <div class="field textarea" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1200" data-aos-once="true">
                             <textarea cols="30" rows="10" placeholder="Message" name="entry.206364934"
                                 autocomplete="off" required></textarea>
                         </div>
-                        <div class="button">
-                            <button type="submit">Send Message</button>
+                        <div class="button" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1500" data-aos-once="true">
+                            <button type="submit" >Send Message</button>
                         </div>
                     </form>
                 </div>
