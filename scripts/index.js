@@ -37,14 +37,14 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typing", {
-        strings: ["a student", "a programmer", "an ethical hacker", "a learning web developer"],
+        strings: ["a student", "a Python Developer", "an AI/ML enthusiast", "a learning web developer"],
         typeSpeed: 100,
         backSpeed: 80,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["a student", "a programmer", "an ethical hacker", "a learning web developer"],
+        strings: ["a student", "a Python Developer", "an AI/ML enthusiast", "a learning web developer"],
         typeSpeed: 100,
         backSpeed: 80,
         loop: true
