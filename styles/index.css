@@ -507,7 +507,7 @@ footer{
     content: "";
     position: absolute;
     height: 100%;
-    width: 55%;
+    width: 20%;
     left: 0;
     top: 0;
     background: crimson;
@@ -516,7 +516,7 @@ footer{
     content: "";
     position: absolute;
     height: 100%;
-    width: 45%;
+    width: 35%;
     left: 0;
     top: 0;
     background: crimson;
